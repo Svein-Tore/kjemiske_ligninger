@@ -4,74 +4,22 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        body {
-          height:60px;
-          width:500px;
-         }   
-        .eqrow {
-            width: 100%;
-            margin: 0;
-            padding: 0;
-        }
-        .eqrow:before, .eqrow:after {
-            content: " ";
-            display: block;
-        }
-        .eqrow:after {clear: both;}
-        .eqnum, .eqbody {
-            position: relative;
-            padding: 1em 0.5em;
-            margin: 0;
-            font-size: 1.05em;
-            line-height: 1.4;
-            float: left;
-        }
-        .eqnum {width: 8%;}
-        .eqbody {width: 84%;}
-        .eqleft {text-align: left;}
-        .eqcenter {text-align: center;}
-        .eqright {text-align: right;}
-
         .dblarrow {
-            font-size: 125%;
-            top: -0.4ex;
-            margin: 0 2px;
-        }
-        .dblarrow:after {
-            content:"\2190"; /* &larrow; */
-            position: absolute;
-            left: 0;
-            top: 0.5ex;
-        }
-
-        /*   Oksidacijski brojevi  */
-        .sy, .syI, .syS {
-            position: relative;
-            text-align: center;
-        }
-        .syI {padding: 0 0.2em;}
-        .syS {padding: 0 0.025em;}
-        .oxbr {
-            position: absolute;
-            top: -1em;
-            left: -1px;
-            width: 100%;
-            font-size: 0.6em;
-            text-align: center;
-            letter-spacing: 0;
-        }
+    font-size: 125%;
+    top: -0.4ex;
+    margin: 0 2px;
+}
+.dblarrow:after {
+    content:"\2190";
+    position: absolute;
+    left: 0;
+    top: 0.5ex;
+}
     </style>
 </head>
 <body>
-<div class="eqrow">
-    <div class="eqnum">&nbsp;</div>
-    <div class="eqbody eqcenter">
-        3Mn<sup>2+</sup> + 2MnO<sub>4</sub><sup>-</sup> + 2H<sub>2</sub>O
-        <span class="dblarrow">&rarr;</span>
-        5MnO<sub>2</sub> + 4H<sup>+</sup>
-    </div>
-    <div class="eqnum">&nbsp;</div>
+<div class="eq-c">
+C + O<sub>2</sub> <span class="dblarrow">&rarr;</span> CO<sub>2</sub>
 </div>
-
 </body>
 </html>
